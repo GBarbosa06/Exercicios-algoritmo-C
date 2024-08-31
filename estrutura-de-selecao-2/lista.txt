@@ -1,0 +1,96 @@
+1. Faça um programa que receba quatro valores, I, A, B e C. I é um valor inteiro e positivo e A, B, C
+são valores reais. Escreva os números A, B, e C. Supondo que o
+valor digitado para I seja sempre um valor válido, ou seja, 1, 2 ou 3.
+
+
+2. Faça um programa que mostre o menu de opções a seguir, receba a opção do usuário e os
+dados necessários para executar cada operação.
+Menu de opções:
+a. O número digitado ao quadrado.
+b. O número digitado ao cubo.
+c. A raiz quadrada do número digitado.
+d. A raiz cúbica do número digitado.
+
+
+3. Faça um programa calculadora que mostre o menu de operações (soma, subtração, divisão,
+multiplicação, elevar ao um número, raiz de qualquer índice, resto), receba a opção do usuário
+e os dados necessários para executar cada operação.
+
+
+
+4. Faça um programa que receba a hora de início de um jogo e a hora final do jogo (cada hora é
+composta por duas variáveis inteiras: hora e minuto). Calcule e mostre a duração do jogo
+(horas e minutos) sabendo-se que o tempo máximo de duração do jogo é de 24 horas e que o
+jogo pode iniciar em um dia e terminar no dia seguinte.
+
+
+5. Faça um programa que receba o código correspondente ao cargo de um funcionário e seu
+salário atual e mostre o cargo, o valor do aumento e seu novo salário. Os cargos estão na
+tabela a seguir.
+
+
+
+6. Faça um programa que apresente o menu de opções a seguir, permita ao usuário escolher a
+opção desejada, receba os dados necessários para executar a operação e mostre o resultado.
+Verifique a possibilidade de opção inválida e não se preocupe com restrições como salário
+negativo.
+Menu de opções:
+1 – Imposto
+2 – Novo Salário
+3 – Classificação
+
+
+
+7. Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a
+seguir verifique e mostre qual a classificação dessa pessoa.
+
+
+8. Faça um programa que receba:
+Lista 3 - Estrutura de Seleção 2 3
+a. O código de um produto comprado, supondo que a digitação do código do produto seja
+sempre válida, ou seja, um número inteiro entre 1 e 10;
+b. O peso do produto em quilos;
+c. O código do país de origem, supondo que a digitação do código do país seja sempre válida,
+ou seja, um número entre 1 e 3.
+
+
+
+9. Faça um programa que receba:
+a. O código do estado de origem da carga de um caminhão, supondo que a digitação do
+código do estado seja sempre válida, ou seja, um número inteiro entre 1 e 5;
+b. O peso da carga do caminhão em toneladas;
+c. O código da carga, supondo que a digitação do código da carga seja sempre válida, ou
+seja, um número inteiro entre 10 e 40.
+
+
+10. Calcule e mostre:
+a. O peso da carga do caminhão convertido em quilos;
+b. O preço da carga do caminhão;
+Lista 3 - Estrutura de Seleção 2 4
+c. O valor do imposto, sabendo-se que o imposto é cobrado sobre o preço da carga do
+caminhão e que depende do estado de origem;
+d. O valor total transportado pelo caminhão, carga mais imposto.
+
+
+11. Desenvolva um programa em C que calcule a média ponderada de um aluno com base em
+quatro notas e diferentes pesos atribuídos a cada nota. O usuário deve poder escolher um dos
+três métodos de cálculo de média:
+a. Média Aritmética Simples
+b. Média Ponderada com pesos específicos
+Use um  switch  para permitir ao usuário escolher o tipo de média a ser calculada e exiba o
+resultado final.
+
+
+
+12. Escreva um programa em C que funcione como um conversor de unidades. O programa deve
+permitir a conversão entre diferentes unidades de temperatura (Celsius, Fahrenheit, Kelvin),
+distância (metros, quilômetros, milhas), e tempo (segundos, minutos, horas). Use
+um  switch  para determinar o tipo de conversão e as unidades de entrada e saída.
+Exemplo de Entrada:
+Tipo de conversão:  Temperatura
+Unidade de origem:  Celsius
+Unidade de destino:  Fahrenheit
+Valor:  25
+
+
+

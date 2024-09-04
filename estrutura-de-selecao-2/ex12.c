@@ -3,7 +3,7 @@
 int main()
 {
     int esctipo, escorigem, escdestino;
-    float c, f, k, m, km, mi, seg, min, horas;
+    float c, f, k, m, km, mi, seg, min, hora;
 
     printf("Escolha a conversao: \n 1. Temperatura \n 2. Distancia \n 3. Tempo \n");
     scanf("%d", &esctipo);
@@ -190,22 +190,22 @@ int main()
             switch (escorigem)
             {
                 case 1:
-                    printf("Para qual unidade? \n 1. Quilometros \n 2. Milhas \n ");
+                    printf("Para qual unidade? \n 1. Minuto \n 2. Hora \n ");
                     scanf("%d", &escdestino);
-                    printf("Qual a distancia em Metros? ");
-                    scanf("%f", &m);
-                    km = m / 1000;
-                    mi = km / 1.6;
+                    printf("Qual o tempo em segundos? ");
+                    scanf("%f", &seg);
+                    min = seg / 60;
+                    hora = min / 60;
 
                     switch (escdestino)
                     {
                     case 1:
-                        printf("Sao %.2f quilometros", km);
+                        printf("Sao %.2f minutos", min);
                         return 0;
                         break;
 
                     case 2:
-                        printf("Sao %.2f milhas", mi);
+                        printf("Sao %.2f horas", hora);
                         return 0;
                         break;
 
@@ -216,21 +216,21 @@ int main()
                     }
                     break;
                 case 2:
-                    printf("Para qual unidade? \n 1. Metro \n 2. Milha \n ");
+                    printf("Para qual unidade? \n 1. Segundos \n 2. Horas \n ");
                     scanf("%d", &escdestino);
-                    printf("Qual a distancia em quilometros? ");
-                    scanf("%f", &km);
-                    m = km * 1000;
-                    mi = km / 1.6;
+                    printf("Qual o tempo em minutos? ");
+                    scanf("%f", &min);
+                    seg = min * 60;
+                    hora = min / 60;
                     switch (escdestino)
                     {
                         case 1:
-                            printf("Sao %.2f metros", m);
+                            printf("Sao %.2f segundos", seg);
                             return 0;
                             break;
 
                         case 2:
-                            printf("Sao %.2f milhas", mi);
+                            printf("Sao %.2f horas", hora);
                             return 0;
                             break;
 

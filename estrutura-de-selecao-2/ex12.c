@@ -244,8 +244,8 @@ int main()
                     scanf("%d", &escdestino);
                     printf("Qual o tempo em horas? ");
                     scanf("%f", &hora);
-                    min = hora / 60;
-                    seg = min / 60;
+                    min = hora * 60;
+                    seg = min * 60;
                     switch (escdestino)
                     {
                         case 1:

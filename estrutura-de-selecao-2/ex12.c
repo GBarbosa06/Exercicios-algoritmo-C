@@ -240,21 +240,21 @@ int main()
                             break;
                     }
                 case 3:
-                    printf("Para qual unidade? \n 1. Metro \n 2. Quilometro \n ");
+                    printf("Para qual unidade? \n 1. Segundos \n 2. Minutos \n ");
                     scanf("%d", &escdestino);
-                    printf("Qual a distancia em milhas? ");
-                    scanf("%f", &mi);
-                    km = mi * 1.6;
-                    m = km / 1000;
+                    printf("Qual o tempo em horas? ");
+                    scanf("%f", &hora);
+                    min = hora / 60;
+                    seg = min / 60;
                     switch (escdestino)
                     {
                         case 1:
-                            printf("Sao %.2f metros", m);
+                            printf("Sao %.2f segundos", seg);
                             return 0;
                             break;
 
                         case 2:
-                            printf("Sao %.2f quilometros", km);
+                            printf("Sao %.2f minutos", min);
                             return 0;
                             break;
 

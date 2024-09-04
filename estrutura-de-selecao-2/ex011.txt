@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int esc;
+    float n1, p1, n2, p2, n3, p3, n4, p4, media;
+    
+    printf("Digite as 4 notas: ");
+    scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
+    
+    printf("Selecione: \n 1. Media aritmetica simples \n 2. Media ponderada \n");
+    scanf("%d", &esc);
+    
+    switch(esc)
+    {
+        case 1:
+            media = (n1+n2+n3+n4)/4;
+            printf("A media das notas e de %.2f pontos", media);
+            break;
+        case 2:
+            printf("Digite o peso respectivo das notas: ");
+            scanf("%f %f %f %f", &p1, &p2, &p3, &p4);
+            media = (n1*p1 + n2*p2 + n3*p3 + n4*p4)/(p1+p2+p3+p4);
+            printf("A media das notas e de %.2f pontos", media);
+            break;
+        default:
+            printf("Selecione uma opcao valida");
+            break;
+    }
+}

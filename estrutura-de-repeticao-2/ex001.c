@@ -66,7 +66,7 @@ int main()
 			u = c;
 			c = aux; 
 
-			printf("\n%d - %d - %d - %d", m, c, d, u);
+			printf("\n%d%d%d%d", m, c, d, u);
 			break;
 		default:
 			printf("Escolha invalida");

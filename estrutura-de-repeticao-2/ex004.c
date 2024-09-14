@@ -2,8 +2,8 @@
 
 int main()
 {
-	float e, e = 1;
-	int n, fat;
+	float e = 1, fat;
+	int n;
 
 	printf("Digite um numero inteiro: ");
 	scanf("%d", &n);
@@ -17,10 +17,9 @@ int main()
 			fat *= (c-1);
 		}
 
-		e = mais + (1/fat);
-		printf("%f \n", mais);
+		e = e + (1/fat);
 	}
 
 
-	printf("   %f", e);
+	printf("%f", e);
 }

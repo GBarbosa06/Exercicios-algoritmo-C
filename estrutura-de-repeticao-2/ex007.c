@@ -4,7 +4,7 @@ int main()
 
     int n, n1 = 0, n2 = 1, n3 = n1 + n2;
 
-    printf("Digite um numero: ");
+    printf("Digite a posicao do termo: ");
     scanf("%d", &n);
 
     for(int i = 3; i <= n; i++)
@@ -15,5 +15,5 @@ int main()
 
 
     }
-    printf("O numero %d da sequencia de fibonacci = %d", n ,n3);
+    printf("O %d numero da sequencia de fibonacci = %d", n ,n3);
 }

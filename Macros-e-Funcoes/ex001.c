@@ -26,8 +26,8 @@ int verificaN(float n)
         }
         else
         {
-            printf("Digite um numero diferente de zero");
-            verificaN(n);
+            printf("Digite um numero diferente de zero\n");
+            main();
         }
         
     }

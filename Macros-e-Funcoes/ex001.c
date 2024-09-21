@@ -7,7 +7,7 @@ int main()
     float n;
 
     printf("Digite um numero: ");
-    scanf("%f", n);
+    scanf("%f", &n);
 
     verificaN(n);
 }

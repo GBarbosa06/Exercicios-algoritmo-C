@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int bissexto(int ano);
+void bissexto(int ano);
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     bissexto(ano);
 }
 
-int bissexto(int ano)
+void bissexto(int ano)
 {
     ano = ano%100;
     if(ano%4==0)

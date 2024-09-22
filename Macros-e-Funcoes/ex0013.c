@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define multiplo(a, b) ((a%b==0) ? 1:0) 
+#define multiplo(a, b) (a%b==0) //vai dar um resultado em verdadeiro (1) ou falso (0)
 
 int main()
 {

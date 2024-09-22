@@ -28,8 +28,6 @@ int verificaN(float n)
         {
             printf("Digite um numero diferente de zero\n");
             main();
-        }
-        
+        }   
     }
-    
 }

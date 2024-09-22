@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define IS_VOGAL(c) ( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') )
+#define IS_VOGAL(c) ((c=='a')||(c=='e')||(c=='i')||(c=='o')||(c=='u')||(c=='A')||(c=='E')||(c=='I')||(c=='O')||(c=='U'))
 
 int main() {
     char letra;
@@ -13,6 +13,4 @@ int main() {
     } else {
         printf("%c nao eh uma vogal.\n", letra);
     }
-
-    return 0;
 }

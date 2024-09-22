@@ -10,6 +10,4 @@ int main()
     scanf("%d", &n);
 
     printf("O valor absoluto de %d e %d", n, ABS(n));
-
-    return 0;
 }

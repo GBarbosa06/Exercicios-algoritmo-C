@@ -11,6 +11,9 @@ int soma(int n1, int n2);
 int main()
 {
     int esc, n1, n2;
+    int resultado = 0;
+    int * p;
+    p = &resultado;
     printf(" 1. Fatorial \n 2. Resto \n 3. Quociente \n 4. Soma \n Escolha uma opcao: ");
     scanf("%d", &esc);
     switch(esc)
@@ -27,7 +30,7 @@ int main()
         break;
     case 3:
         printf("Entre com a divisao: ");
-        scanf("%d / %d", n1,n2);
+        scanf("%d/%d", &n1,&n2);
         printf("O resultado eh %d.", quociente(n1,n2));
         break;
     case 4:
@@ -71,16 +74,25 @@ int resto(int dividendo, int divisor)
 int quociente(int dividendo, int divisor)
 {
 
+    if (dividendo < divisor)
+    {
+        return 0;
+    }
+    else
+    {
+        return 1 + quociente(dividendo-divisor, divisor);
+    }
+    
 }
 int soma(int n1, int n2)
 {
-
+    return(suc(n1)+pred(n2));
 }
     int suc(int n)
     {
-
+        return(n+1);
     }
     int pred(int n)
     {
-
+        return(n-1);
     }

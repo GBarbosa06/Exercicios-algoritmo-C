@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void hanoi(int n, char t1[], char t2[], char t3[], int *contador);
-int contador(int c);
 
 int main()
 {
@@ -29,9 +28,4 @@ void hanoi(int n, char t1[], char t2[], char t3[], int *contador)
         
     }
     
-}
-
-int contador(int c)
-{
-
 }

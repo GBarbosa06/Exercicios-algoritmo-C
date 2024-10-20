@@ -11,9 +11,6 @@ int soma(int n1, int n2);
 int main()
 {
     int esc, n1, n2;
-    int resultado = 0;
-    int * p;
-    p = &resultado;
     printf(" 1. Fatorial \n 2. Resto \n 3. Quociente \n 4. Soma \n Escolha uma opcao: ");
     scanf("%d", &esc);
     switch(esc)
@@ -40,14 +37,14 @@ int main()
         break;
     
     default:
-        printf("Escolha inválida");
+        printf("Escolha invalida");
         break;
     }
 }
 
 int fatorial(int num)
 {
-    int fat = 1;
+    int fat;
     if(num == 0)
     {
         return 1;

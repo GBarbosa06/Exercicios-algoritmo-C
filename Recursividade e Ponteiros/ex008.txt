@@ -1,0 +1,3 @@
+Cada asterisco antes de uma variável significa que a variável é um ponteiro, na segunda linha no "*=" e após o 2, são o operador aritmético de multiplicação.
+
+O resultado será 5, pois a variável x não foi alterada, e o ponteiro não aponta para x.

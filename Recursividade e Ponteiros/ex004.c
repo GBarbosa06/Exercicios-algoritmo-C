@@ -27,5 +27,4 @@ void hanoi(int n, char t1[], char t2[], char t3[], int *contador)
         (*contador)++;
         
     }
-    
 }

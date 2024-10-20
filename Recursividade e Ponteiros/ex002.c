@@ -20,16 +20,11 @@ int main()
 
 void regr(int n)
 {
-    if (n == 0)
-    {
-        return 0;
-    }
-    else
+    if (n > 0)
     {
         printf("%d\n", n);
-        return(regr(n-1));
-    }
-    
+        regr(n-1);
+    }    
 }
 
 void bin(int n) 

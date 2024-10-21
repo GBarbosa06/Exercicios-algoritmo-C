@@ -1,0 +1,5 @@
+A saída será referente às quantidades de bytes usados por cada tipo de dado.
+a+1 = 1001 --> char - 1 bytes
+b+1 = 1004 --> int - 4 bytes
+c+1 = 1004 --> float - 4 bytes
+d+1 = 1008 --> double - 8 bytes

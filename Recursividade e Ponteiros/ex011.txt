@@ -1,0 +1,5 @@
+O resultado será o "valor da memória":
+1004 --> +4 bytes do int;
+0FF8 --> -12 bytes (4x3) - hexadeximal;
+1000 --> +8 bytes (4x2);
+0FFC --> -4 bytes do int;

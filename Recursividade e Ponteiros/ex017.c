@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-void calcularDobroMetade(float *num, float *dobro, float *metade);
+void dividir(int *dividendo, int *divisor, int *quociente, int *resto);
 
 int main()
 {
-    float n, dobro, metade;
-    float *ptr = &n, *ptrDobro = &dobro, *ptrMetade = &metade;
-    printf("Digite um numero real: ");
-    scanf("%f", &n);
-    calcularDobroMetade(ptr, ptrDobro, ptrMetade);
-    printf("Entrada: %.2f \nDobro: %.2f \nMetade: %.2f", n, dobro, metade);
+    int dividendo, divisor, quociente, resto;
+    int *ptr = &dividendo, *ptrDivisor = &divisor, *ptrQuociente = &quociente, *ptrResto = &resto;
+    printf("Digite dois numeros inteiro: ");
+    scanf("%d %d", &dividendo, &divisor);
+    dividir(ptr, ptrDivisor, ptrQuociente, ptrResto);
+    printf("Entrada: %d \nQuociente: %d \nResto: %d", dividendo, quociente, resto);
 }
 
-void calcularDobroMetade(float *num, float *dobro, float *metade)
+void dividir(int *dividendo, int *divisor, int *quociente, int *resto)
 {
-    *dobro = *num * 2;
-    *metade = *num / 2;
+    *quociente = *dividendo / *divisor;
+    *resto = *dividendo % *divisor;
 }

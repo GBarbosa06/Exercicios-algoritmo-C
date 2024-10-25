@@ -1,2 +1,2 @@
 # Exercicios-algoritmo-C
- Exercícios a serem entregues na Disciplina de Algoritmo e Programação Estruturada
+ Exercícios a serem entregues na Disciplina de Algoritmos e Programação Estruturada

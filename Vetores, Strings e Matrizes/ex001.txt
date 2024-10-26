@@ -1,0 +1,10 @@
+Os valores, em ordem, serão:
+Elemento 1: 17
+Elemento 2: -2
+Elemento 3: 9
+Elemento 4: 1980460845
+Elemento 5: 47
+Elemento 6: 9
+Elemento 7: 56
+Elemento 8: 78
+Elemento 9: -18

@@ -48,7 +48,7 @@ int main()
     int array[tamanhoArray];
     int *arrayOrdenada = array;
     int esc;
-    int (*ordem) (int, int);
+    int (*ordem) (int[], int);
 
     srand(time(NULL)); //matem sempre uma inicialização diferente
     printf("Array inicial: ");
@@ -63,8 +63,8 @@ int main()
     printf("Escolha uma ordem: \n 1. Crescente \n 2. Decrescente\n");
     scanf("%d", &esc);
 
-    if (esc==1) ordem = crescente(array, tamanhoArray);
-    else if (esc==2) ordem = decrescente(array, tamanhoArray);
+    if (esc==1) ordem = crescente;
+    else if (esc==2) ordem = decrescente;
     else {printf("Escolha invalida");}
     
     ordem(array, tamanhoArray);

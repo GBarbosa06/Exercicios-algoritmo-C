@@ -52,7 +52,7 @@ int main()
 
     srand(time(NULL)); //matem sempre uma inicialização diferente
     printf("Array inicial: ");
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < tamanhoArray; i++)
     {
         array[i] = rand()%50; //pega numeros aleatorios de 0 a 50
         printf("%d ", array[i]);
@@ -60,7 +60,7 @@ int main()
     
     bubbleSort(arrayOrdenada, tamanhoArray);
 
-    printf("Escolha uma ordem: \n 1. Crescente \n 2. Decrescente\n");
+    printf("\n Escolha uma ordem: \n 1. Crescente \n 2. Decrescente\n");
     scanf("%d", &esc);
 
     if (esc==1) ordem = crescente;
